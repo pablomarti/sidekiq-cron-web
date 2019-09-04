@@ -34,13 +34,11 @@ Gem::Specification.new do |s|
     "lib/sidekiq-cron.rb",
     "lib/sidekiq/cron.rb",
     "lib/sidekiq/cron/job.rb",
-    "lib/sidekiq/cron/launcher.rb",
     "lib/sidekiq/cron/locales/de.yml",
     "lib/sidekiq/cron/locales/en.yml",
     "lib/sidekiq/cron/locales/ja.yml",
     "lib/sidekiq/cron/locales/ru.yml",
     "lib/sidekiq/cron/locales/zh-CN.yml",
-    "lib/sidekiq/cron/poller.rb",
     "lib/sidekiq/cron/support.rb",
     "lib/sidekiq/cron/views/cron.erb",
     "lib/sidekiq/cron/views/cron.slim",
@@ -49,10 +47,8 @@ Gem::Specification.new do |s|
     "lib/sidekiq/cron/web.rb",
     "lib/sidekiq/cron/web_extension.rb",
     "sidekiq-cron.gemspec",
-    "test/integration/performance_test.rb",
     "test/test_helper.rb",
     "test/unit/job_test.rb",
-    "test/unit/poller_test.rb",
     "test/unit/web_extension_test.rb"
   ]
   s.homepage = "http://github.com/ondrejbartas/sidekiq-cron".freeze
